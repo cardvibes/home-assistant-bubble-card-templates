@@ -1,0 +1,9 @@
+{
+  "name": "Bubble Card Templates",
+  "content_in_root": false,
+  "render_readme": true,
+  "filename": "readme.md",
+  "country": "ALL",
+  "homeassistant": "2023.1.0",
+  "iot_class": "local_polling"
+}
