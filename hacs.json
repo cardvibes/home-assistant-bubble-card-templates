@@ -1,9 +1,7 @@
 {
   "name": "Bubble Card Templates",
-  "content_in_root": false,
+  "content_in_root": true,
   "render_readme": true,
-  "filename": "readme.md",
-  "content_type": "dashboard",
-  "country": "ALL",
-  "homeassistant": "2023.1.0"
+  "filename": "README.md",
+  "content_type": "lovelace"
 }

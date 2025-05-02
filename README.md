@@ -11,22 +11,16 @@ Bubble Card Templates provide ready-to-use configurations for various sensor typ
 ### HACS Installation (Recommended)
 1. Make sure you have [HACS (Home Assistant Community Store)](https://hacs.xyz/) installed
 2. First install the [Bubble Card](https://github.com/custom-cards/bubble-card) custom component via HACS
-3. In HACS, go to "Integrations" and click the three dots in the top right corner
+3. In HACS, go to "Dashboards" and click the three dots in the top right corner
 4. Select "Custom repositories"
 5. Add this repository URL: `https://github.com/cardvibes/home-assistant-bubble-card-templates` 
-6. Select category: "Integration"
+6. Select category: "Dashboard"
 7. Click "Add" and then install "Bubble Card Templates"
 8. Restart Home Assistant
 
 ### Manual Installation
 1. First install the [Bubble Card](https://github.com/custom-cards/bubble-card) custom component
-2. Clone this repository into your Home Assistant configuration directory:
-   ```
-   cd /path/to/your/config
-   git clone https://github.com/cardvibes/home-assistant-bubble-card-templates.git
-   ```
-3. Copy the `custom_components/bubble_card_templates` folder to your Home Assistant `custom_components` directory
-4. Restart Home Assistant
+2. Copy the contents of the `templates` directory to your Home Assistant configuration directory under `dashboards/templates/bubble_card_templates/`
 
 ## Available Templates
 
